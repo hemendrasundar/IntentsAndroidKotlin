@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <EditText
+      android:id="@+id/et_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Name"/>
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Mobile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_open_Activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="OpenActivity"
+            android:layout_weight="0.5"/>
+        <Button
+            android:id="@+id/btn_dial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Dial"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_web"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="web"
+            android:layout_weight="0.25"/>
+        <Button
+            android:id="@+id/btn_whatsapp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="whatsapp"
+            android:layout_weight="0.25"/>
+        <Button
+            android:id="@+id/btn_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="file"
+            android:layout_weight="0.25"/>
+        <Button
+            android:id="@+id/btn_instagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="insta"
+            android:layout_weight="0.25"/>
+
+    </LinearLayout>
+
+</LinearLayout>
